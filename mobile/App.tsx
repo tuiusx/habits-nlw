@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Tuius</Text>
+      <Text style={styles.text}>Tuius ama a sarah</Text>
       <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
     </View>
   );
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
-    color: 'white',
+    color: 'red',
     fontFamily: 'Inter_800ExtraBold',
   }
 });
